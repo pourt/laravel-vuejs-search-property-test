@@ -22,6 +22,9 @@ class CreatePropertiesTable extends Migration
             $table->integer("storeys");
             $table->integer("garages");
             $table->timestamps();
+
+            $table->index(['name']);
+            $table->index(['price']);
         });
     }
 
