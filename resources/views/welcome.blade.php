@@ -15,16 +15,10 @@
         </style>
 
         <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
-
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
     </head>
     <body class="antialiased">
         <div id="app">
-            <app></app>
+            <search-application />
         </div>
 
         <script src="{{ mix('js/app.js') }}"></script>
